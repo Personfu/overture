@@ -2,9 +2,7 @@
 
 > Civic-data tooling for legislators, voting records, public records, camera governance, road-data continuity, and legislation-impact mapping.
 
-**Original project by Emma Landis.**
-
-Overture began as Emma Landis' civic-legislator data project: legislators, parties, jurisdictions, chambers, districts, terms, PostgreSQL, and OpenStates-style YAML parsing. This fork keeps that foundation visible while expanding the project into a consumer-facing civic accountability system for Arizona camera governance, ALPR/Flock oversight, public-road data continuity, public-records workflows, and legislation consequence mapping.
+Overture began from an upstream civic-legislator data project covering legislators, parties, jurisdictions, chambers, districts, terms, PostgreSQL, and OpenStates-style YAML parsing. This fork keeps that foundation visible while expanding the project into a consumer-facing civic accountability system for Arizona camera governance, ALPR/Flock oversight, public-road data continuity, public-records workflows, and legislation consequence mapping.
 
 ## What this project is
 
@@ -106,7 +104,7 @@ python main.py seed-db
 | --- | --- | --- |
 | `README.md` | Front door, mission, quick start, repo map | Everyone |
 | `main.py` | Source ledger, report generator, claim verifier, public-records bundle, PostgreSQL seeder | Developers, civic-data maintainers |
-| `ATTRIBUTION.md` | Original project credit to Emma Landis | Everyone |
+| `ATTRIBUTION.md` | Minimal upstream credit | Everyone |
 | `requirements.txt` | Python dependencies | Developers |
 | `schema/overture_camera_accountability.sql` | PostgreSQL schema for source notes, camera assets, requests, actions, and legislation impact | Developers, analysts |
 | `data/arizona-camera-accountability-sources.json` | Structured source map | Analysts, journalists, maintainers |
