@@ -1,0 +1,119 @@
+{
+  "project": "Overture Arizona Public Safety Camera Accountability",
+  "version": "2026-06-30",
+  "principles": [
+    "Use public sources only.",
+    "Separate traffic cameras from ALPR systems.",
+    "Do not bypass or interfere with camera infrastructure.",
+    "Track contract, retention, audit, sharing, warrant, and renewal details.",
+    "Keep claims source-backed."
+  ],
+  "primary_public_maps": [
+    {
+      "name": "DeFlock",
+      "url": "https://deflock.org/",
+      "type": "public camera / ALPR source map",
+      "notes": "Use as a starting point; verify every point before making claims."
+    },
+    {
+      "name": "OpenStreetMap ASU / Tempe example",
+      "url": "https://www.openstreetmap.org/node/13613353701#map=19/33.420348/-111.931079",
+      "type": "public map node",
+      "notes": "Treat as a source pointer, not final proof of ownership or capability."
+    }
+  ],
+  "arizona_road_information": [
+    {
+      "name": "AZ511",
+      "url": "https://www.az511.gov/",
+      "type": "traveler information / road status"
+    },
+    {
+      "name": "Arizona Department of Transportation",
+      "url": "https://azdot.gov/",
+      "type": "state transportation agency"
+    }
+  ],
+  "uk_context": [
+    {
+      "name": "Traffic England",
+      "url": "https://www.trafficengland.com/",
+      "type": "public traffic information closure context",
+      "notes": "Closure notice supplied by FLLC indicates website closure on 2026-06-30 and redirects users to navigation apps, National Highways, and professional NTIS access."
+    },
+    {
+      "name": "National Highways",
+      "url": "https://nationalhighways.co.uk/travel-updates/",
+      "type": "official UK road information"
+    }
+  ],
+  "legislative_context": [
+    {
+      "name": "Arizona Legislature Member Roster",
+      "url": "https://www.azleg.gov/memberroster/",
+      "type": "official roster"
+    },
+    {
+      "name": "Rep. Stacey Travers",
+      "url": "https://www.azleg.gov/house-member/?legislature=57&session=130&legislator=2340",
+      "type": "official legislator page"
+    },
+    {
+      "name": "Stacey Travers campaign site",
+      "url": "https://www.traversforaz.com/",
+      "type": "campaign site"
+    },
+    {
+      "name": "Sen. Lauren Kuby",
+      "url": "https://www.azleg.gov/senate-member/?legislature=57&legislator=2390",
+      "type": "official legislator page"
+    },
+    {
+      "name": "Lauren Kuby campaign site",
+      "url": "https://www.kubyforsenate.com/",
+      "type": "campaign site"
+    }
+  ],
+  "privacy_civil_liberties_sources": [
+    {
+      "name": "EFF ALPR overview",
+      "url": "https://www.eff.org/pages/automated-license-plate-readers-alpr",
+      "type": "civil liberties research"
+    },
+    {
+      "name": "ACLU ALPR issue page",
+      "url": "https://www.aclu.org/issues/privacy-technology/location-tracking/automatic-license-plate-readers",
+      "type": "civil liberties research"
+    }
+  ],
+  "openstreetmap_contributors_referenced_by_campaign": [
+    {
+      "name": "RickDalton",
+      "url": "https://www.openstreetmap.org/user/RickDalton"
+    },
+    {
+      "name": "g_uy",
+      "url": "https://www.openstreetmap.org/user/g_uy"
+    },
+    {
+      "name": "pidogs",
+      "url": "https://www.openstreetmap.org/user/pidogs"
+    }
+  ],
+  "record_fields_to_collect": [
+    "jurisdiction",
+    "agency_or_owner",
+    "vendor",
+    "camera_type",
+    "camera_location_public_source",
+    "contract_url",
+    "retention_policy",
+    "audit_policy",
+    "sharing_partners",
+    "warrant_policy",
+    "public_records_contact",
+    "renewal_date",
+    "confidence_level",
+    "last_verified"
+  ]
+}
