@@ -4,6 +4,10 @@ Overture is an FLLC civic-intelligence project for lawful, public-source oversig
 
 The project began as a legislator and voting-record organizer. It now expands into an operational accountability layer for Arizona and the United States: who buys surveillance systems, who votes for them, who audits them, where public cameras are visible, when road data becomes privatized, what traffic/court escalation looks like, and what residents can do before public safety becomes private mass tracking.
 
+## Original project credit
+
+Overture is built from an original forked civic-legislator data project by **Emma Landis**. Credit to Emma Landis for the original repository concept, legislator-organizing scope, and early PostgreSQL/OpenStates direction. FLLC's later work expands that base into Arizona ALPR, public safety camera, road-data, public-records, and camera-governance accountability.
+
 ## Position
 
 Arizona should not normalize private ALPR grids without public proof, public policy, and public accountability.
