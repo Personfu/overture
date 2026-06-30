@@ -112,7 +112,7 @@ python main.py seed-db
 | `data/arizona-camera-accountability-sources.json` | Structured source map | Analysts, journalists, maintainers |
 | `docs/consumer-guide.md` | Plain-English guide for residents and nontechnical readers | Consumers, citizens, local groups |
 | `docs/legislation-impact-framework.md` | How Overture maps a law or policy into real-world consequences | Policy researchers, advocates, journalists |
-| `docs/claim-standards.md` | How claims are classified, sourced, held, and escalated | Maintainers, contributors |
+| `docs/evidence-standards.md` | How public statements are classified, sourced, held, and corrected | Maintainers, contributors |
 | `docs/repository-map.md` | Detailed explanation of every major file and output | Developers, reviewers |
 | `docs/arizona-alpr-brief.md` | Arizona ALPR and camera accountability field brief | Residents, journalists, public commenters |
 | `docs/az511-road-data-history.md` | AZ511 and public-road data continuity notes | Transportation, public-data, privacy readers |
